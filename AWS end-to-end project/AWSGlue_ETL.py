@@ -3,8 +3,8 @@ import boto3
 import pandas as pd
 from io import StringIO
 
-AWS_ACCESS_KEY="AKIAZQ3DUFRZBRTAL4WI"
-AWS_SECRET_KEY = "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"
+AWS_ACCESS_KEY="********"
+AWS_SECRET_KEY = "*********"
 AWS_REGION = "au-south-1"
 SCHEMA_NAME = "coid19db"
 S3_STAGING_DIR = "s3://vaibhavk-result-dataset-bucket/output/"
